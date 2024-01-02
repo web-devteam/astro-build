@@ -174,7 +174,7 @@ if(signedin=="true"){
    console.log(create.name)
    createtxt.id = "notifytxt"
    createimg.id = "notifyboximg"
-   createimg.src="login-concept-illustration_114360-739.avif"
+   createimg.src="login-concept-illustration_114360-739 (1).avif"
    createtxt.innerHTML="thank you for creating an account with us"
    document.getElementById("notifybox").appendChild(create)
    create.append(createtxt)
