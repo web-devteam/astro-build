@@ -1,5 +1,7 @@
 let emails = ["buluswise@gmail.com", "web.dev.team321@gmail.com"]
 let passwords = ["bulus4,4", "web.dev321"]
+let finame = ["emmanuel", "emmanuel"]
+let laname = ["bulus", "emmanuel"]
 let notifi = [1, 1]
 let pre = notifi.length
 let code = null
@@ -117,8 +119,6 @@ localStorage.setItem("signedin", signedin)}}
 
 function verify2 (){
 adress = document.getElementById("adress2").value
-fname = document.getElementById("fname2").value
-lname = document.getElementById("lname2").value
 password = document.getElementById("password2").value
 let place = emails.indexOf(adress)
 console.log(place)
@@ -126,8 +126,8 @@ console.log(password)
 console.log(adress)
     if(emails.includes(adress) && passwords[place]==password){console.log("verified")
 document.getElementById("activitybox").style.display="flex"; document.getElementById("morebox").style.display="flex";  document.getElementById("signinbox").style.display="none";  
-signedin="true"; localStorage.setItem("adress", adress); localStorage.setItem("fname", fname)
-localStorage.setItem("lname", lname); localStorage.setItem("password", password); localStorage.setItem("notifi", notifi)
+signedin="true"; localStorage.setItem("adress", adress); localStorage.setItem("fname", finame[place])
+localStorage.setItem("lname", laname[place]); localStorage.setItem("password", password); localStorage.setItem("notifi", notifi)
 localStorage.setItem("signedin", signedin)
 let create = document.createElement("div")
 let createtxt = document.createElement("txt")
