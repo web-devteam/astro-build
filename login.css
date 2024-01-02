@@ -1,0 +1,409 @@
+body{margin: 0;
+    background-color: rgb(240, 237, 237);}
+    #logo{
+        width: 30px;
+        height: 30px;
+    }
+    #logoset{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    width: 200px;
+    }
+    #title{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #navbar{
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid black;
+        background-color: transparent;
+     position: absolute;
+     width: 100%;
+     top: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#links{
+    display: flex;
+    column-gap: 30px;
+    position: absolute;
+    right: 50px;
+}
+#mainbox{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 50px;
+
+}
+#signupbox{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 60px;
+display: none;
+}
+#signinbox{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 60px;
+display: none;
+}
+#signupbox2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 40px;
+display: none;
+}
+#signupbox3{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 40px;
+display: none;
+}
+#activitybox{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 50px;
+display: none;
+}
+#activityimg{width: 25%;}
+h1{
+    font-family: sans-serif;
+}
+#mainimg{
+    width: 20%;
+}
+#continue{
+    width: 150px;
+height: 30px;
+border-radius: 20px;
+border: 0;
+color: white;
+background-color: rgb(57, 57, 255);
+}
+#next{
+    width: 150px;
+height: 30px;
+border-radius: 20px;
+border: 0;
+color: white;
+margin-top: 30px;
+background-color: rgb(57, 57, 255);
+}
+#next2{
+    width: 150px;
+height: 30px;
+border-radius: 20px;
+border: 0;
+color: white;
+margin-top: 30px;
+background-color: rgb(57, 57, 255);
+}
+#signinb{
+    width: 150px;
+height: 30px;
+border-radius: 20px;
+border: 0;
+color: white;
+margin-top: 30px;
+background-color: rgb(39, 150, 255);
+}
+#open{
+    width: 150px;
+height: 30px;
+border-radius: 20px;
+border: 0;
+color: white;
+
+background-color: rgb(57, 57, 255);
+}
+#snext{
+    width: 150px;
+height: 30px;
+border-radius: 20px;
+border: 0;
+color: white;
+
+background-color: rgb(57, 57, 255);
+}
+#ids{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+input{
+    width: 300px;
+    border: 0;
+    height: 30px;
+}
+#box2txt{
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 40%;
+    text-align: center;
+}
+#mailimg{
+    width: 10%;
+}
+#morebox{
+    position: absolute;
+    right: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+width: 100px;
+height: 50px;
+    top: 80px;
+    background-color: rgb(95, 95, 254);
+    border-radius: 10px;
+padding-left: 5px;
+padding-right: 5px;
+display: none;
+box-shadow: -2px 2px rgb(104, 104, 104);
+}
+#more{width: 30px; }
+h5{margin-left: 10px; color: white; font-size: 18px;}
+#sidebar{
+    position: fixed;
+    display: flex;
+    height: 100%;
+    right: 0;
+    flex-direction: column;
+    background-color: rgb(255, 153, 0);
+    width: 300px;
+    top: 60px;
+    align-items: center;
+    display: none;
+    overflow-y: scroll;
+    box-shadow: -5px 5px 5px rgba(81, 81, 81, 0.55) ;
+}
+h2{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+#activity{
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    cursor: default;
+}
+#notifi{
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    cursor: default;
+}
+#account{
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    cursor: default;
+}
+#request{
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  
+  cursor: default;
+}
+#help{
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    cursor: default;
+}
+#signout{
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    cursor: default;
+}
+#hide{
+    width: 200px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    cursor: default;
+}
+#notifybox{
+    margin-top: 100px;
+    display: none;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 40px;
+
+}
+#accountbox{
+    margin-top: 100px;
+    display: none;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 30px;
+
+}
+#requestbox{
+    margin-top: 100px;
+    display: none;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+row-gap: 40px;
+
+}
+#notifyimg{
+    width: 20%;
+    display: none;
+    margin-top: 30px;
+}
+#credential{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+#profileimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 102, 255);
+}
+#letter{color: white;}
+#send{
+    width: 150px;
+height: 30px;
+border-radius: 20px;
+border: 0;
+color: white;
+background-color: rgb(57, 57, 255);
+}
+textarea{
+    height: 200px;
+    width: 350px;
+    max-height: 200px;
+    max-width: 350px;
+    min-height: 200px;
+    min-width: 350px;
+}
+#notifytxtbox{
+    height: 400px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+box-shadow: -5px 5px 5px rgba(147, 147, 147, 0.541) ;
+    background-color: white;
+    margin-bottom: 50px;
+    display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+#notifytxt{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#notifyboximg{width: 20%;}
+#helpbox{
+    background-color: rgba(0, 0, 0, 0.751);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    display: none;
+}
+#helptxtbox{
+width: 440px;
+background-color: rgb(255, 255, 255);
+height: 500px;
+border: 1px solid rgb(46, 46, 46);
+padding-left: 30px;
+padding-right: 30px;
+
+display: flex;
+align-items: center;
+
+flex-direction: column;
+overflow-y: scroll;
+}
+#close{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+p{text-align: center;}
+h4{
+    font-size: 20px;
+font-family: sans-serif;
+}
+#menu{display: none; position: absolute; right: 50px;}
+@media screen and (max-width: 530px) {
+    #menu{display: block;}
+    #links{position: absolute; display: flex;
+        flex-direction: column; background-color: rgb(255, 255, 255); 
+    height: 100px; width: 100px; top: 70px; row-gap: 10px;
+    align-items: center; justify-content: center; right: 0;
+    border-top-left-radius: 20px; border-bottom-left-radius: 20px; display: none;}
+}
+@media screen and (max-width: 800px) {
+h1{font-size: 1.5rem;}
+}
+@media screen and (max-width: 650px) {
+#activityimg{width: 50%;}
+#activitybox{margin-top: 120px;}
+#notifybox{margin-top: 120px;}
+#accountbox{margin-top: 120px;}
+#requestbox{margin-top: 120px;}
+#morebox{scale: 0.7;}
+#notifytxtbox{height: 300px;}
+#notifytxt{width: 70%;}
+}
+@media screen and (max-width: 1000px) {
+#mainimg{width: 230px;}
+#box2txt{width:60%;}
+#notifyboximg{width: 200px;}
+}
+@media screen and (max-width: 530px) {
+    #menu{display: block;}
+    #links{display: none;}
+    #box2txt{width: 90%;}
+    #notifyboximg{width: 150px;}
+    #notifytxt{font-size: 18px;}
+}
+@media screen and (max-width: 800px) {
+#box2txt{font-size: 18px;}
+#mailimg{width: 100px;}
+}

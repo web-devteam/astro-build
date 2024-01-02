@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro build</title>
+    <link rel="icon" href="home_app_logo_FILL0_wght400_GRAD0_opsz48.png">
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <div id="navbar"><div id="logoset"><img id="logo" src="home_app_logo_FILL0_wght400_GRAD0_opsz48.png" alt=""><h3 id="title">Astro build</h3></div>
+    <div id="links"><a href="index.html">homepage</a><a href="">feed</a><a href="login.html">account</a></div><img id="menu" src="menu_FILL0_wght400_GRAD0_opsz24.png" alt=""></div>
+    <div id="error"><img id="mainimg" src="OIG__5_-removebg-preview.png" alt="">
+    <h1>no feeds available</h1></div>
+    <div id="mainpart">
+        <div id="mainpartbox">
+   <h1 id="tile">Feed</h1>
+   <p id="maintxt">welcome to the feed the best place to get all the latest information concerning astro</p></div>
+   <img id="mainpartimg" src="img6-removebg-preview.png" alt="">
+   </div>
+    <div class="box" id="box1">
+        <div id="txtbox1"><h2>welcome to the feed</h2>
+            <p class="txt">get all the latest news related to astro</p></div>
+        <img id="img1" src="OIG__4_-removebg-preview.png" alt=""></div>
+    <div class="box" id="box2">
+        <div id="txtbox1"><h2>Astor's launch</h2>
+            <p class="txt">astro is schedueled to be launched early this year (2024)</p></div><img id="img2" src="img_1-removebg.png" alt=""></div>
+    <div class="box" id="box3">
+        <div id="txtbox1"><h2>need assistance</h2>
+            <p class="txt">get started with astro and enjoy digital assistance</p></div></div>
+    <div class="box" id="box4">
+        <div id="txtbox1"><h2>Astro</h2>
+            <p class="txt">the future of virtual assistance at your finger tips</p></div></div>
+    <div class="box" id="box5">
+        <div id="txtbox1"><h2>Discord</h2>
+            <p class="txt">join our discord page using the link https://discord.gg/knGy7AQ6</p></div></div>
+  <div class="box" id="box6">
+        <div id="txtbox1"><h2>account</h2>
+            <p class="txt">create an account to enjoy all the benefits that comes with it</p></div></div>
+
+</body>
+<script>
+         let on = true;
+    document.getElementById("menu").addEventListener("click", ()=>{
+        if(on==true){document.getElementById("links").style.display="flex";  document.getElementById("menu").src="close_FILL0_wght400_GRAD0_opsz24.png"; on=false}
+        else if(on==false){document.getElementById("links").style.display="none";  document.getElementById("menu").src="menu_FILL0_wght400_GRAD0_opsz24.png"; on=true}  
+    })
+</script>
+</html>
