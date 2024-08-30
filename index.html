@@ -114,6 +114,29 @@
     <img id="adimg" src="img_13-removebg-preview.png" alt="">
     <p id="adtxt">Astro version 3.1 available now</p>
 </div>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBhzRf4QdKisn1ZDZx6yXXyyIKx7vKJb1A",
+    authDomain: "astro-9aff2.firebaseapp.com",
+    projectId: "astro-9aff2",
+    storageBucket: "astro-9aff2.appspot.com",
+    messagingSenderId: "859595125291",
+    appId: "1:859595125291:web:f2b24724590f63ff18306e",
+    measurementId: "G-R47ET3855D"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
 </body>
 <footer>
     <div id="images">
